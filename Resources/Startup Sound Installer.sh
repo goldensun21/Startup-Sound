@@ -9,7 +9,7 @@ mkdir ~/Library/Application\ Support/startup_sound/
 
 # move script and launchagent files from .dmg to their correct places
 cp /Volumes/Startup\ Sound/Startup\ Sound\ Installer.app/Contents/startup_sound.sh ~/Library/Scripts/
-cp /Volumes/Startup\ Sound/Startup\ Sound\ Installer.app/Contents/com.startupsound.plist ~/Library/LaunchAgents/
+cp /Volumes/Startup\ Sound/Startup\ Sound\ Installer.app/Contents/com.user.startupsound.plist ~/Library/LaunchAgents/
 
 # .dmg will be named "Startup Sound"
 
